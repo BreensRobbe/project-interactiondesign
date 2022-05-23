@@ -6,7 +6,6 @@ const apiKey = '?api_key=MsVwdNzUZ5FpCweL2JX7nbFQz9YbvTO1WugLvjqG'
 
 document.addEventListener('DOMContentLoaded', async function () {
 
-
     const response = await fetch(serverEndPoint + apiKey)
     const responseJson = await response.json()
     console.log(responseJson)
