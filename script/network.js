@@ -23,6 +23,8 @@ const listenToClickDays = function() {
         day.addEventListener("click", function(){
             
             console.log("Clicked" + this.innerText)
+
+            getData(serverEndPoint, apiKey, "&date=2022-06-" + this.innerText)
         })
     }
 }
